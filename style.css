@@ -16,7 +16,7 @@ body{
 main{
   border-style: solid;
   border-width: 4px;
-  height: 80vh;
+     height: 96vh;
   width: 330px;
   border-radius: 5px;
 }
@@ -114,6 +114,6 @@ section{
 section div{
   font-size: 16px;
   margin-top: 20px;
-  font-weight: 600;
+  font-weight: 600;f
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
