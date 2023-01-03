@@ -42,7 +42,7 @@ else if (json.weather[0].main == 'Rain' || json.weather[0].main == 'Rainy') {
 
           City.innerText = `Weather In ${value}`;
           Humidity.innerText = `💨Humidity: ${json.main.humidity}%`;
-          Wind.innerText = `💫Windk speed: ${json.wind.speed} km/h`;
+          Wind.innerText = `💫Wind speed: ${json.wind.speed} km/h`;
            Temps.innerText = `🌍Temp: ${json.main.temp} °C`;
            Cloudy.innerText = `🌗Atmosphere: ${json.weather[0].main}`;
         })
